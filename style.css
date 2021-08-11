@@ -1,0 +1,85 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Baloo Chettan 2', cursive;
+}
+/* #bdc3c7 → #2c3e50 */
+section {
+    background: linear-gradient(#bdc3c7 , #2c3e50);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    background-color: #2C2E43;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.display {
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+    font-size: 30px;
+    position: relative;
+}
+
+.display-1{
+    opacity: .4;
+    font-size: 20px;
+    height: 23px;
+    overflow: hidden;
+}
+
+.temp-result{
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    font-size: 20px;
+    opacity: 0.4;
+}
+
+.all_buttons{
+    color: rgb(253, 247, 247);
+    display: grid;
+    grid-template:repeat(4 , 1fr) / repeat(4 , 1fr) ;
+}
+
+.button{
+    border: 0.5px solid rgba(92 , 92 , 92 , 0.137);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #56597a;
+}
+
+.all-clear {
+    background-color: rgb(196, 48, 48);
+}
+
+.all-clear:hover {
+    background-color: rgb(184, 97, 97);
+}
